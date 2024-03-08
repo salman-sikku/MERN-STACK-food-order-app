@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; 
+  font-synthesis: none;
+  background-color: #fdfdfd;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.active{
+  color: #2c2f3e;
+  font-weight: 600;
+}
+
+.borderNavIcon:hover{
+  border: 1px solid #FBBC2F;
+}
+.cateHorzantle{
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.cateHorzantle::-webkit-scrollbar{
+  display: none;
+}
+.productStyle{
+  border: 1px solid rgb(235, 233, 233);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px;
+}
+.myShadow{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.shado{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
